@@ -2,26 +2,39 @@
 <head>
 <meta charset="utf-8">
 <style type="text/css">
-button{
-    background-color:#002aed
-}
-button.hover{
-    background-color:#5a01a7
-}
-button.active{
-    background-color:#ffbf08
-}
+.button {
+        display: inline-block;
+        width: 150px; 
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff; 
+        border: 2px solid #000; 
+        background-color: #0074D9; 
+        transition: all 0.3s ease 0s;
+    }
+    
+    .button:hover {
+        background-color: #FF00FF; 
+        color: #000; 
+        border: 2px solid #FF00FF; 
+    }
+    
+    .button:active {
+        background-color: #FFFF00; 
+        border: 2px solid #FFFF00;
+    }
 </style>
 </head>
 <body>
 <h1 id="bio">Автобіографія Краївського Станіслава Івановича</h1>
 <a href="index.html">Назад на головну</a>
 <h3 id="cnt">Зміст</h3>
-<button type="button"   ><a href="#basic">Базова інформація</a><br></button>
-<a href="#ch">Дитинство</a><br>
-<a href="#sch">Шкільні роки</a><br>
-<a href="#bsch">Поза школою</a><br>
-<a href="#un">Університет</a><br><br>
+<a href="#basic" class="button">Базова інформація</a><br></button>
+<a href="#ch" class="button">Дитинство</a><br>
+<a href="#sch" class="button">Шкільні роки</a><br>
+<a href="#bsch" class="button">Поза школою</a><br>
+<a href="#un" class="button">Університет</a><br><br>
 <article id="basic"><header>Базова інформація</header>
 <p>Народився 23 червня 2006 року в місті Івано-Франківськ.</p></article>
 <a href="#cnt">До змісту</a><br><br>
