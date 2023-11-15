@@ -9,25 +9,25 @@
 }
 .caption1, .caption2, .caption3{
     float: right;
-    border: 2px solid black;
+    border: 2px solid green;
     display: block;
     width: 120px;
     text-align: center;
 }
 .caption1{
-    background-color: orange;
+    background-color: red;
     color: black;
 }
 .caption2{
-    background-color: yellow;
+    background-color: blue;
     color:  black; 
 }
 .caption3{
-    background-color: pink;
+    background-color: rgb(202, 123, 136);
     color:  black;
 }
 .block{
-    background-color: aquamarine;
+    background-color: rgb(140, 127, 255);
     margin-left:10px;
     margin-right:10px;
     margin-bottom:20px;
