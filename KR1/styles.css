@@ -1,16 +1,13 @@
-#art1{
-  background-color: lightblue;
-}
-#art2{
-  background-color: yellow;
-}
-#art3{
-  background-color: red;
-}
-#art4{
-  background-color: green;
-}
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+#ft1{
+  font:"Roboto";
+}
+#ft2{
+  font:"Kalnia";
+}
+#ft3{
+  font:"Rethink Sans";
 }
