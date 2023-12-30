@@ -1,0 +1,57 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+h1{
+    text-align: center;
+    font-size: 22px;
+} 
+a{
+    font-style: italic;
+}
+h2{
+    text-align: center;
+}
+th{
+    text-align: center;
+    background-color: #00FF00;
+    color: #f2f2f2;
+    font-weight: bold;
+}
+#os{
+    text-align: right;
+}
+/* Large devices*/
+@media (min-width: 992px) {
+    .big-top td{
+        font-size: 1.3em;
+    }
+    .big-nottop td{
+        font-size: 1.2em;
+    }
+}
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 992px) {
+    .mdm-top td{
+        font-size: 1.2em;
+    }
+    .mdm-nottop td{
+        font-size: 1.1em;
+    }
+}
+/* Small devices */
+@media (max-width: 768px) {
+    .sml-top th{
+        font-size: 1.1em;
+    }
+}
